@@ -31,6 +31,7 @@ const Header = ({ dispatch }) => {
         <div className='w-main flex justify-between h-[110px] py-[35px]'>
             <Link to={`/${path.HOME}`}>
                 <img src={logo} alt="logo" className='w-[234px] object-contain' />
+                {/* <span className='w-[234px]'>4GEAR</span> */}
             </Link>
             <div className='flex text-[13px]'>
                 <div className='flex flex-col px-6 border-r items-center'>
@@ -43,7 +44,7 @@ const Header = ({ dispatch }) => {
                 <div className='flex flex-col items-center px-6 border-r'>
                     <span className='flex gap-4 items-center'>
                         <MdEmail color='red' />
-                        <span className='font-semibold'>SUPPORT@TADATHEMES.COM</span>
+                        <span className='font-semibold'>SUPPORT@4GEAR.COM</span>
                     </span>
                     <span>Online Support 24/7</span>
                 </div>

@@ -60,6 +60,9 @@ const Checkout = ({ dispatch, navigate }) => {
                                 setIsSuccess={setIsSuccess}
                                 amount={Math.round(+currentCart?.reduce((sum, el) => +el?.price * el.quantity + sum, 0) / 23500)}
                             />
+                            <button className='justify-center margin-auto'>
+                                <a href="https://pay.momo.vn/AUcxuvkMvo"><img src='https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png'></img></a>
+                            </button>
                         </div>
                     </div>
                 </div>
